@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { CATEGORIES } from '../../converterCatalog';
+import { useDocumentMeta } from '../../hooks/useDocumentMeta';
 import type { Category } from '../../types';
 import styles from './ConverterShell.module.css';
 
@@ -12,6 +13,10 @@ interface Props {
 
 export default function ConverterShell({ title, description, category, children }: Props) {
   const cat = CATEGORIES.find(c => c.id === category);
+  const { pathname } = useLocation();
+
+  useDocumentMeta({ title, description, path: pathname });
+
   return (
     <div className={styles.shell}>
       <div className={styles.header}>

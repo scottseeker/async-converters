@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://async-converters.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Units & Measurement -->
+  <url><loc>https://async-converters.com/units/length</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/weight</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/temperature</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/area</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/volume</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/speed</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/data-storage</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Time & Date -->
+  <url><loc>https://async-converters.com/time/timezone</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/time/unix-timestamp</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/time/duration</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Numbers & Math -->
+  <url><loc>https://async-converters.com/numbers/base</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/roman-numerals</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/scientific-notation</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/fraction-decimal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Text & Encoding -->
+  <url><loc>https://async-converters.com/text/base64</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/url-encode</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/html-entities</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/case-converter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/word-count</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/lorem-ipsum</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Color -->
+  <url><loc>https://async-converters.com/color/format</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/color/contrast</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Finance -->
+  <url><loc>https://async-converters.com/finance/currency</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://async-converters.com/finance/percentage</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/finance/tip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/finance/loan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Developer Tools -->
+  <url><loc>https://async-converters.com/developer/json</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/jwt</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/regex</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/markdown</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/hash</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/csv-json</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/uuid</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Image & File -->
+  <url><loc>https://async-converters.com/image/resize</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/image-format</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/qr-code</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
