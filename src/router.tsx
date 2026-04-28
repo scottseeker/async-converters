@@ -3,6 +3,8 @@ import { createElement } from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 
+/** test */
+
 function lazyRoute(factory: () => Promise<{ default: ComponentType }>) {
   return async () => {
     const m = await factory();
