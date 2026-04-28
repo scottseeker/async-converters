@@ -67,9 +67,10 @@ export const router = createBrowserRouter([
       { path: 'developer/uuid',     lazy: lazyRoute(() => import('./pages/developer/UuidGenerator')) },
 
       // Image & File
-      { path: 'image/resize',       lazy: lazyRoute(() => import('./pages/image/ImageResize')) },
-      { path: 'image/image-format', lazy: lazyRoute(() => import('./pages/image/ImageFormat')) },
-      { path: 'image/qr-code',      lazy: lazyRoute(() => import('./pages/image/QrCode')) },
+      { path: 'image/resize',        lazy: lazyRoute(() => import('./pages/image/ImageResize')) },
+      { path: 'image/image-format',  lazy: lazyRoute(() => import('./pages/image/ImageFormat')) },
+      { path: 'image/qr-code',       lazy: lazyRoute(() => import('./pages/image/QrCode')) },
+      { path: 'image/compress',      lazy: lazyRoute(() => import('./pages/image/ImageCompress')) },
     ],
   },
 ]);

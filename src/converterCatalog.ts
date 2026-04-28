@@ -60,7 +60,8 @@ export const CONVERTERS: ConverterMeta[] = [
   { slug: 'uuid',     name: 'UUID Generator',           description: 'Generate random UUIDs (v4)',                           category: 'developer', path: '/developer/uuid',     keywords: ['uuid', 'guid', 'random', 'id', 'identifier', 'generate', 'v4'] },
 
   // Image & File
-  { slug: 'resize',       name: 'Image Resize',             description: 'Resize images in your browser',              category: 'image', path: '/image/resize',       keywords: ['image', 'resize', 'scale', 'png', 'jpg', 'jpeg', 'width', 'height'] },
-  { slug: 'image-format', name: 'Image Format Converter',   description: 'Convert PNG, JPEG, WebP in browser',         category: 'image', path: '/image/image-format', keywords: ['image', 'convert', 'png', 'jpeg', 'jpg', 'webp', 'format'] },
-  { slug: 'qr-code',      name: 'QR Code Generator',        description: 'Generate QR codes from text or URLs',        category: 'image', path: '/image/qr-code',      keywords: ['qr', 'qr code', 'barcode', 'url', 'generate', 'scan', 'text'] },
+  { slug: 'resize',       name: 'Image Resize',             description: 'Resize images in your browser',                                      category: 'image', path: '/image/resize',       keywords: ['image', 'resize', 'scale', 'png', 'jpg', 'jpeg', 'width', 'height'] },
+  { slug: 'image-format', name: 'Image Format Converter',   description: 'Convert PNG, JPEG, WebP in browser',                                category: 'image', path: '/image/image-format', keywords: ['image', 'convert', 'png', 'jpeg', 'jpg', 'webp', 'format'] },
+  { slug: 'qr-code',      name: 'QR Code Generator',        description: 'Generate QR codes from text or URLs',                               category: 'image', path: '/image/qr-code',      keywords: ['qr', 'qr code', 'barcode', 'url', 'generate', 'scan', 'text'] },
+  { slug: 'compress',     name: 'Image Compressor',         description: 'Compress JPEG, PNG, WebP, AVIF with MozJPEG, OxiPNG, libwebp, libavif', category: 'image', path: '/image/compress',     keywords: ['image', 'compress', 'optimize', 'jpg', 'jpeg', 'png', 'webp', 'avif', 'mozjpeg', 'oxipng', 'squoosh', 'reduce', 'size'] },
 ];

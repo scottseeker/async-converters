@@ -57,4 +57,5 @@
   <url><loc>https://async-converters.com/image/resize</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/image/image-format</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/image/qr-code</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/compress</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
