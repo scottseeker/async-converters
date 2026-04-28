@@ -1,0 +1,59 @@
+.nav {
+  padding: 0.5rem 0;
+}
+
+.category {
+  margin-bottom: 0.25rem;
+}
+
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.categoryHeader:hover {
+  color: var(--text-secondary);
+}
+
+.categoryIcon {
+  font-size: 0.9rem;
+}
+
+.links {
+  overflow: hidden;
+}
+
+.link {
+  display: block;
+  padding: 0.35rem 1rem 0.35rem 2.25rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: background var(--transition), color var(--transition);
+}
+
+.link:hover {
+  background: var(--accent-subtle);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.linkActive {
+  background: var(--accent-subtle);
+  color: var(--accent);
+  font-weight: 600;
+  border-right: 3px solid var(--accent);
+}
