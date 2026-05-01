@@ -6,7 +6,8 @@ export type Category =
   | 'color'
   | 'finance'
   | 'developer'
-  | 'image';
+  | 'image'
+  | 'pdf';
 
 export interface ConverterMeta {
   slug: string;

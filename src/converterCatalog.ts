@@ -9,6 +9,7 @@ export const CATEGORIES: { id: Category; label: string; icon: string }[] = [
   { id: 'finance',   label: 'Finance',              icon: '💰' },
   { id: 'developer', label: 'Developer Tools',      icon: '💻' },
   { id: 'image',     label: 'Image & File',         icon: '🖼️' },
+  { id: 'pdf',       label: 'PDF Tools',             icon: '📄' },
 ];
 
 export const CONVERTERS: ConverterMeta[] = [
@@ -64,4 +65,16 @@ export const CONVERTERS: ConverterMeta[] = [
   { slug: 'image-format', name: 'Image Format Converter',   description: 'Convert PNG, JPEG, WebP in browser',                                category: 'image', path: '/image/image-format', keywords: ['image', 'convert', 'png', 'jpeg', 'jpg', 'webp', 'format'] },
   { slug: 'qr-code',      name: 'QR Code Generator',        description: 'Generate QR codes from text or URLs',                               category: 'image', path: '/image/qr-code',      keywords: ['qr', 'qr code', 'barcode', 'url', 'generate', 'scan', 'text'] },
   { slug: 'compress',     name: 'Image Compressor',         description: 'Compress JPEG, PNG, WebP, AVIF with MozJPEG, OxiPNG, libwebp, libavif', category: 'image', path: '/image/compress',     keywords: ['image', 'compress', 'optimize', 'jpg', 'jpeg', 'png', 'webp', 'avif', 'mozjpeg', 'oxipng', 'squoosh', 'reduce', 'size'] },
+
+  // PDF Tools
+  { slug: 'pdf-merge',        name: 'PDF Merge',              description: 'Combine multiple PDF files into one',                     category: 'pdf', path: '/pdf/merge',         keywords: ['pdf', 'merge', 'combine', 'join', 'concatenate'] },
+  { slug: 'pdf-split',        name: 'PDF Split',              description: 'Split a PDF into individual pages or ranges',             category: 'pdf', path: '/pdf/split',         keywords: ['pdf', 'split', 'extract', 'pages', 'separate'] },
+  { slug: 'pdf-rotate',       name: 'PDF Rotate',             description: 'Rotate pages in a PDF file',                             category: 'pdf', path: '/pdf/rotate',        keywords: ['pdf', 'rotate', 'turn', 'orientation', 'pages'] },
+  { slug: 'pdf-reorder',      name: 'PDF Reorder Pages',      description: 'Drag and drop to reorder PDF pages',                     category: 'pdf', path: '/pdf/reorder',       keywords: ['pdf', 'reorder', 'rearrange', 'sort', 'pages', 'order'] },
+  { slug: 'pdf-remove-pages', name: 'PDF Remove Pages',       description: 'Remove unwanted pages from a PDF',                       category: 'pdf', path: '/pdf/remove-pages',  keywords: ['pdf', 'remove', 'delete', 'pages', 'trim'] },
+  { slug: 'pdf-watermark',    name: 'PDF Watermark',          description: 'Add a text watermark to every page of a PDF',            category: 'pdf', path: '/pdf/watermark',     keywords: ['pdf', 'watermark', 'stamp', 'text', 'overlay'] },
+  { slug: 'pdf-page-numbers', name: 'PDF Page Numbers',       description: 'Add page numbers to a PDF',                              category: 'pdf', path: '/pdf/page-numbers',  keywords: ['pdf', 'page', 'numbers', 'numbering', 'footer', 'header'] },
+  { slug: 'image-to-pdf',     name: 'Image → PDF',            description: 'Convert one or more images to a single PDF',             category: 'pdf', path: '/pdf/image-to-pdf',  keywords: ['image', 'pdf', 'convert', 'jpg', 'png', 'photo'] },
+  { slug: 'pdf-to-images',    name: 'PDF → Images',           description: 'Render each PDF page as a PNG image',                    category: 'pdf', path: '/pdf/pdf-to-images',  keywords: ['pdf', 'image', 'png', 'render', 'extract', 'pages'] },
+  { slug: 'pdf-word-count',   name: 'PDF Word Count',         description: 'Count words, characters, and pages in a PDF',            category: 'pdf', path: '/pdf/word-count',    keywords: ['pdf', 'word', 'count', 'characters', 'pages', 'text'] },
 ];

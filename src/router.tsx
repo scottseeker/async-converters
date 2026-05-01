@@ -71,6 +71,18 @@ export const router = createBrowserRouter([
       { path: 'image/image-format',  lazy: lazyRoute(() => import('./pages/image/ImageFormat')) },
       { path: 'image/qr-code',       lazy: lazyRoute(() => import('./pages/image/QrCode')) },
       { path: 'image/compress',      lazy: lazyRoute(() => import('./pages/image/ImageCompress')) },
+
+      // PDF Tools
+      { path: 'pdf/merge',        lazy: lazyRoute(() => import('./pages/pdf/PdfMerge')) },
+      { path: 'pdf/split',        lazy: lazyRoute(() => import('./pages/pdf/PdfSplit')) },
+      { path: 'pdf/rotate',       lazy: lazyRoute(() => import('./pages/pdf/PdfRotate')) },
+      { path: 'pdf/reorder',      lazy: lazyRoute(() => import('./pages/pdf/PdfReorder')) },
+      { path: 'pdf/remove-pages', lazy: lazyRoute(() => import('./pages/pdf/PdfRemovePages')) },
+      { path: 'pdf/watermark',    lazy: lazyRoute(() => import('./pages/pdf/PdfWatermark')) },
+      { path: 'pdf/page-numbers', lazy: lazyRoute(() => import('./pages/pdf/PdfPageNumbers')) },
+      { path: 'pdf/image-to-pdf', lazy: lazyRoute(() => import('./pages/pdf/ImageToPdf')) },
+      { path: 'pdf/pdf-to-images',lazy: lazyRoute(() => import('./pages/pdf/PdfToImages')) },
+      { path: 'pdf/word-count',   lazy: lazyRoute(() => import('./pages/pdf/PdfWordCount')) },
     ],
   },
 ]);
