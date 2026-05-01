@@ -10,7 +10,8 @@ export type Category =
   | 'social'
   | 'gaming'
   | 'student'
-  | 'random';
+  | 'random'
+  | 'hobbies';
 
 export interface ConverterMeta {
   slug: string;

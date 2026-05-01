@@ -222,6 +222,23 @@ export const router = createBrowserRouter([
       { path: 'random/dice-roller',         lazy: lazyRoute(() => import('./pages/random/DiceRoller')) },
       { path: 'random/raffle-picker',       lazy: lazyRoute(() => import('./pages/random/RafflePicker')) },
       { path: 'random/secret-santa',        lazy: lazyRoute(() => import('./pages/random/SecretSanta')) },
+
+      // Hobbies
+      { path: 'hobbies/rc-gear-ratio',          lazy: lazyRoute(() => import('./pages/hobbies/RcGearRatio')) },
+      { path: 'hobbies/rc-speed',               lazy: lazyRoute(() => import('./pages/hobbies/RcSpeed')) },
+      { path: 'hobbies/rc-battery',             lazy: lazyRoute(() => import('./pages/hobbies/RcBattery')) },
+      { path: 'hobbies/rc-drift-setup',         lazy: lazyRoute(() => import('./pages/hobbies/RcDriftSetup')) },
+      { path: 'hobbies/rc-crawl-speed',         lazy: lazyRoute(() => import('./pages/hobbies/RcCrawlSpeed')) },
+      { path: 'hobbies/bike-cadence',           lazy: lazyRoute(() => import('./pages/hobbies/BikeCadence')) },
+      { path: 'hobbies/bike-gear-inches',       lazy: lazyRoute(() => import('./pages/hobbies/BikeGearInches')) },
+      { path: 'hobbies/bike-suspension-sag',    lazy: lazyRoute(() => import('./pages/hobbies/BikeSuspensionSag')) },
+      { path: 'hobbies/ebike-power-speed',      lazy: lazyRoute(() => import('./pages/hobbies/EBikePowerSpeed')) },
+      { path: 'hobbies/ebike-range',            lazy: lazyRoute(() => import('./pages/hobbies/EBikeRange')) },
+      { path: 'hobbies/skateboard-wheel-speed', lazy: lazyRoute(() => import('./pages/hobbies/SkateboardWheelSpeed')) },
+      { path: 'hobbies/skateboard-rolling',     lazy: lazyRoute(() => import('./pages/hobbies/SkateboardRolling')) },
+      { path: 'hobbies/longboard-downhill',     lazy: lazyRoute(() => import('./pages/hobbies/LongboardDownhill')) },
+      { path: 'hobbies/skate-wheel-speed',      lazy: lazyRoute(() => import('./pages/hobbies/SkateWheelSpeed')) },
+      { path: 'hobbies/skate-stride',           lazy: lazyRoute(() => import('./pages/hobbies/SkateStride')) },
     ],
   },
 ]);
