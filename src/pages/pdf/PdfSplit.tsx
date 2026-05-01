@@ -62,7 +62,7 @@ export default function PdfSplit() {
           const [page] = await single.copyPages(src, [i]);
           single.addPage(page);
           const out = await single.save();
-          const blob = new Blob([out], { type: 'application/pdf' });
+          const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
           files.push({ name: `page-${i + 1}.pdf`, url: URL.createObjectURL(blob), bytes: out.length });
         }
         setResults(files);
@@ -73,7 +73,7 @@ export default function PdfSplit() {
         const pages = await single.copyPages(src, indices);
         pages.forEach(p => single.addPage(p));
         const out = await single.save();
-        const blob = new Blob([out], { type: 'application/pdf' });
+        const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
         setResults([{ name: 'extracted.pdf', url: URL.createObjectURL(blob), bytes: out.length }]);
       }
     } finally {
@@ -85,7 +85,7 @@ export default function PdfSplit() {
     <ConverterShell
       title="PDF Split"
       description="Split a PDF into individual pages or extract a custom page range — all in your browser."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

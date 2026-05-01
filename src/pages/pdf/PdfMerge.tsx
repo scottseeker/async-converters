@@ -57,7 +57,7 @@ export default function PdfMerge() {
         pages.forEach(p => merged.addPage(p));
       }
       const out = await merged.save();
-      const blob = new Blob([out], { type: 'application/pdf' });
+      const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(out.length);
     } finally {
@@ -69,7 +69,7 @@ export default function PdfMerge() {
     <ConverterShell
       title="PDF Merge"
       description="Combine multiple PDF files into a single document — entirely in your browser."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

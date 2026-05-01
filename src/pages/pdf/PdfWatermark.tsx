@@ -88,12 +88,12 @@ export default function PdfWatermark() {
           font,
           color: rgb(0.5, 0.5, 0.5),
           opacity,
-          rotate: diagonal ? { type: 'degrees' as const, angle: 45 } : undefined,
+          rotate: diagonal ? { type: 'degrees' as unknown as import('pdf-lib').RotationTypes, angle: 45 } : undefined,
         });
       }
 
       const out = await doc.save();
-      const blob = new Blob([out], { type: 'application/pdf' });
+      const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(out.length);
     } finally {
@@ -105,7 +105,7 @@ export default function PdfWatermark() {
     <ConverterShell
       title="PDF Watermark"
       description="Add a text watermark to every page of a PDF — entirely client-side."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

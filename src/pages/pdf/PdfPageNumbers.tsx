@@ -71,7 +71,7 @@ export default function PdfPageNumbers() {
       });
 
       const out = await doc.save();
-      const blob = new Blob([out], { type: 'application/pdf' });
+      const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(out.length);
     } finally {
@@ -85,7 +85,7 @@ export default function PdfPageNumbers() {
     <ConverterShell
       title="PDF Page Numbers"
       description="Add customizable page numbers to every page of your PDF."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

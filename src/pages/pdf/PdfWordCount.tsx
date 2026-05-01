@@ -49,8 +49,8 @@ export default function PdfWordCount() {
         const page = await pdf.getPage(i);
         const content = await page.getTextContent();
         const pageText = content.items
-          .filter((item): item is pdfjsLib.TextItem => 'str' in item)
-          .map(item => item.str)
+          .filter((item) => 'str' in item)
+          .map(item => (item as { str: string }).str)
           .join(' ');
         fullText += pageText + '\n\n';
       }
@@ -66,7 +66,7 @@ export default function PdfWordCount() {
     <ConverterShell
       title="PDF Word Count"
       description="Count words, characters, sentences, and pages in a PDF — all client-side."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

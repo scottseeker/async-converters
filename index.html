@@ -22,6 +22,34 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Async Converters — Free Browser-Based Conversion Tools" />
     <meta name="twitter:description" content="Free, fast, browser-based converter tools. Convert units, currencies, colors, numbers, timestamps, images, and more — no login, no upload, instant results." />
+
+    <!-- JSON-LD: WebSite + SearchAction -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Async Converters",
+      "url": "https://async-converters.com/",
+      "description": "Free, fast, browser-based converter and calculator tools. No login, no upload, instant results.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://async-converters.com/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Async Converters",
+      "url": "https://async-converters.com/",
+      "description": "Free online converter and calculator tools that run entirely in your browser."
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

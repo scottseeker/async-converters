@@ -2,72 +2,212 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://async-converters.com/</loc>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Units & Measurement -->
-  <url><loc>https://async-converters.com/units/length</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/units/weight</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/units/temperature</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/units/area</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/units/volume</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/units/speed</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/units/data-storage</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/length</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/weight</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/temperature</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/area</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/volume</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/speed</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/units/data-storage</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Time & Date -->
-  <url><loc>https://async-converters.com/time/timezone</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/time/unix-timestamp</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/time/duration</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/time/timezone</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/time/unix-timestamp</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/time/duration</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Numbers & Math -->
-  <url><loc>https://async-converters.com/numbers/base</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/numbers/roman-numerals</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/numbers/scientific-notation</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/numbers/fraction-decimal</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/base</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/roman-numerals</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/scientific-notation</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/numbers/fraction-decimal</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Text & Encoding -->
-  <url><loc>https://async-converters.com/text/base64</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/text/url-encode</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/text/html-entities</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/text/case-converter</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/text/word-count</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/text/lorem-ipsum</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/base64</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/url-encode</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/html-entities</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/case-converter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/word-count</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/lorem-ipsum</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Color -->
-  <url><loc>https://async-converters.com/color/format</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/color/contrast</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/color/format</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/color/contrast</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Finance -->
-  <url><loc>https://async-converters.com/finance/currency</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
-  <url><loc>https://async-converters.com/finance/percentage</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/finance/tip</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/finance/loan</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/finance/currency</loc><lastmod>2026-04-30</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://async-converters.com/finance/percentage</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/finance/tip</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/finance/loan</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Developer Tools -->
-  <url><loc>https://async-converters.com/developer/json</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/developer/jwt</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/developer/regex</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/developer/markdown</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/developer/hash</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/developer/csv-json</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/developer/uuid</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/json</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/jwt</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/regex</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/markdown</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/hash</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/csv-json</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/uuid</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- Image & File -->
-  <url><loc>https://async-converters.com/image/resize</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/image/image-format</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/image/qr-code</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/image/compress</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/resize</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/image-format</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/qr-code</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/compress</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
   <!-- PDF Tools -->
-  <url><loc>https://async-converters.com/pdf/merge</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/split</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/rotate</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/reorder</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/remove-pages</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/watermark</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/page-numbers</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/image-to-pdf</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/pdf-to-images</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/pdf/word-count</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/merge</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/split</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/rotate</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/reorder</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/remove-pages</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/watermark</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/page-numbers</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/image-to-pdf</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/pdf-to-images</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/word-count</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/lock</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/unlock</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/metadata</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/reverse</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/grayscale</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/header-footer</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/text-extract</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/crop</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/pdf/scale</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Image & File (new tools) -->
+  <url><loc>https://async-converters.com/image/crop</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/flip</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/watermark</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/meme-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/blur</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/border</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/rounded-corners</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/collage</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/aspect-crop</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/thumbnail-maker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/favicon-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/color-palette</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/gradient-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/css-box-shadow</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/css-glassmorphism</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/svg-blob</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/svg-wave</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/bg-pattern</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/screenshot-mockup</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/social-preview</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/compare</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/zip-viewer</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/exif-viewer</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/exif-remover</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/file-checksum</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/csv-column-extractor</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/csv-deduplicator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/csv-sorter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/image/csv-splitter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Social & Creator -->
+  <url><loc>https://async-converters.com/social/fancy-text</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/instagram-bio</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/hashtag-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/youtube-tags</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/caption-line-break</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/tweet-counter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/username-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/social/discord-formatter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Text (new tools) -->
+  <url><loc>https://async-converters.com/text/dedupe-lines</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/sort-lines</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/randomize-lines</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/text-diff</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/remove-spaces</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/keyword-density</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/text-to-slug</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/reverse-text</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/tiny-text</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/wide-text</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/remove-line-breaks</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/add-line-numbers</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/find-replace</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/text/html-stripper</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Developer Tools (new tools) -->
+  <url><loc>https://async-converters.com/developer/xml-formatter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/yaml-formatter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/sql-formatter</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/js-beautifier</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/css-beautifier</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/html-beautifier</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/diff-checker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/cron-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/cron-reader</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/timestamp-diff</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/opengraph-preview</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/robots-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/sitemap-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/htaccess-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/password-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/password-strength</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/utm-builder</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/dns-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/developer/dummy-json</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Business & Seller -->
+  <url><loc>https://async-converters.com/business/profit-margin</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/roi-calculator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/break-even</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/discount-calculator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/sales-tax</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/commission</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/paypal-fee</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/ebay-fee</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/etsy-fee</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/amazon-fee</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/markup-margin</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/invoice-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/quote-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/business/barcode-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Gaming -->
+  <url><loc>https://async-converters.com/gaming/dpi-calculator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/sensitivity</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/fov-calculator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/gaming-name</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/random-team</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/minecraft-stack</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/minecraft-beacon</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/minecraft-enchant</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/pokemon-type</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/pokemon-iv</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/dnd-dice</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/gaming/dnd-name</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Student & School -->
+  <url><loc>https://async-converters.com/student/gpa-calculator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/grade-percentage</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/citation-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/reading-time-est</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/flashcard-picker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/student-picker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/study-timer</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/pomodoro</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/formula-sheet</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/student/sig-figs</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Random & Fun -->
+  <url><loc>https://async-converters.com/random/spin-wheel</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/yes-no</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/random-number</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/random-group</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/coin-flip</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/dice-roller</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/raffle-picker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/random/secret-santa</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

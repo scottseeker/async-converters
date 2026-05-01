@@ -56,7 +56,7 @@ export default function PdfReorder() {
       const pages = await out.copyPages(src, order);
       pages.forEach(p => out.addPage(p));
       const bytes = await out.save();
-      const blob = new Blob([bytes], { type: 'application/pdf' });
+      const blob = new Blob([bytes.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(bytes.length);
     } finally {
@@ -68,7 +68,7 @@ export default function PdfReorder() {
     <ConverterShell
       title="PDF Reorder Pages"
       description="Drag and drop to rearrange PDF pages, then download the reordered document."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

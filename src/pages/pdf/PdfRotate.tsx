@@ -56,7 +56,7 @@ export default function PdfRotate() {
         page.setRotation(degrees((current + rotations[i]) % 360));
       });
       const out = await doc.save();
-      const blob = new Blob([out], { type: 'application/pdf' });
+      const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(out.length);
     } finally {
@@ -68,7 +68,7 @@ export default function PdfRotate() {
     <ConverterShell
       title="PDF Rotate"
       description="Rotate individual pages or all pages of a PDF — right in your browser."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

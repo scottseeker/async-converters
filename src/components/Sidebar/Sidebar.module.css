@@ -2,6 +2,45 @@
   padding: 0.5rem 0;
 }
 
+.navHeader {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem 0.35rem 1rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.navTitle {
+  flex: 1;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.toggleAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+  flex-shrink: 0;
+}
+
+.toggleAll:hover {
+  color: var(--accent);
+  border-color: var(--border);
+  background: var(--accent-subtle);
+}
+
 .category {
   margin-bottom: 0.25rem;
 }

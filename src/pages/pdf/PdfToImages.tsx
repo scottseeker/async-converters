@@ -41,7 +41,7 @@ export default function PdfToImages() {
         canvas.width = viewport.width;
         canvas.height = viewport.height;
         const ctx = canvas.getContext('2d')!;
-        await page.render({ canvasContext: ctx, viewport }).promise;
+        await page.render({ canvasContext: ctx, viewport, canvas }).promise;
         rendered.push({ dataUrl: canvas.toDataURL('image/png'), pageNum: i });
       }
 
@@ -65,7 +65,7 @@ export default function PdfToImages() {
     <ConverterShell
       title="PDF → Images"
       description="Render each PDF page as a PNG image — entirely in your browser using PDF.js."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

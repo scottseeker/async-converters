@@ -70,7 +70,7 @@ export default function ImageToPdf() {
       }
 
       const out = await pdf.save();
-      const blob = new Blob([out], { type: 'application/pdf' });
+      const blob = new Blob([out.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(out.length);
     } finally {
@@ -82,7 +82,7 @@ export default function ImageToPdf() {
     <ConverterShell
       title="Image → PDF"
       description="Convert one or more images (JPEG, PNG, WebP, etc.) into a single PDF — all in your browser."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div

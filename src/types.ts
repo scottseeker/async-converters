@@ -7,7 +7,10 @@ export type Category =
   | 'finance'
   | 'developer'
   | 'image'
-  | 'pdf';
+  | 'social'
+  | 'gaming'
+  | 'student'
+  | 'random';
 
 export interface ConverterMeta {
   slug: string;

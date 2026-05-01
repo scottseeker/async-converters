@@ -52,7 +52,7 @@ export default function PdfRemovePages() {
       const pages = await out.copyPages(src, keepIndices);
       pages.forEach(p => out.addPage(p));
       const bytes = await out.save();
-      const blob = new Blob([bytes], { type: 'application/pdf' });
+      const blob = new Blob([bytes.buffer as ArrayBuffer], { type: 'application/pdf' });
       setResultUrl(URL.createObjectURL(blob));
       setResultBytes(bytes.length);
     } finally {
@@ -64,7 +64,7 @@ export default function PdfRemovePages() {
     <ConverterShell
       title="PDF Remove Pages"
       description="Select pages to delete from a PDF, then download the trimmed document."
-      category="pdf"
+      category="image"
     >
       <div className={styles.form}>
         <div
