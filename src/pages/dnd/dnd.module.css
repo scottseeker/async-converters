@@ -1,0 +1,291 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 760px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.6rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.85rem;
+  cursor: pointer;
+}
+
+.cardLabel {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  margin-bottom: 0.2rem;
+}
+
+.cardValue {
+  font-size: 0.875rem;
+  color: var(--text-primary);
+}
+
+/* 3D Dice Panel */
+.dicePanel {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.canvas3d {
+  width: 100%;
+  height: 320px;
+  background: var(--bg-code);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.diceGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dieTray {
+  width: 140px;
+  height: 140px;
+  background: var(--bg-code);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.dieTrayLg {
+  width: 200px;
+  height: 200px;
+}
+
+.diceControls {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.diceRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.diceTypes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.diceBtn {
+  padding: 0.3rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.diceBtn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.diceBtnActive {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--bg-card);
+}
+
+.rollBtn {
+  padding: 0.55rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.rollBtn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.diceResults {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.totalNum {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.totalLabel {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.rollBreakdown {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+/* Initiative tracker */
+.initiativeList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.initiativeRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.6rem;
+}
+
+.initiativeActive {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.initiativeRank {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  min-width: 1.4rem;
+  text-align: center;
+}
+
+.initiativeName {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.hpBadge {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  background: var(--bg-code);
+  border: 1px solid var(--border);
+}
+
+.hpBadgeLow {
+  border-color: #e55;
+  color: #e55;
+}
+
+.removeBtn {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.4rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  border-color: #e55;
+  color: #e55;
+}
+
+/* Encounter difficulty */
+.difficultyBadge {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.diffEasy   { background: #1a472a; color: #5faa7d; }
+.diffMedium { background: #1a3a5c; color: #6aabda; }
+.diffHard   { background: #4a2c0a; color: #e5a24a; }
+.diffDeadly { background: #3d0f0f; color: #e55; }
+
+/* Loot */
+.lootList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.lootItem {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.875rem;
+  padding: 0.35rem 0.6rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.lootRarity {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.rarityCommon    { background: var(--bg-code); color: var(--text-muted); }
+.rarityUncommon  { background: #1a3a1a; color: #5faa7d; }
+.rarityRare      { background: #1a2a4a; color: #6aabda; }
+.rarityVeryRare  { background: #2e1a4a; color: #b088e0; }
+.rarityLegendary { background: #3d2800; color: #f0a030; }

@@ -184,10 +184,7 @@
   <url><loc>https://async-converters.com/gaming/minecraft-stack</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/gaming/minecraft-beacon</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/gaming/minecraft-enchant</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/gaming/pokemon-type</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/gaming/pokemon-iv</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/gaming/dnd-dice</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/gaming/dnd-name</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
 
   <!-- Student & School -->
   <url><loc>https://async-converters.com/student/gpa-calculator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -207,7 +204,6 @@
   <url><loc>https://async-converters.com/random/random-number</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/random/random-group</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/random/coin-flip</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://async-converters.com/random/dice-roller</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/random/raffle-picker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/random/secret-santa</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
@@ -227,4 +223,34 @@
   <url><loc>https://async-converters.com/hobbies/longboard-downhill</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/hobbies/skate-wheel-speed</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://async-converters.com/hobbies/skate-stride</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- TCG (Pokémon) -->
+  <url><loc>https://async-converters.com/tcg/pokemon-type</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/pokemon-iv</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/team-weakness</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/shiny-odds</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/random-pokemon-team</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- One Piece TCG -->
+  <url><loc>https://async-converters.com/tcg/op-don-tracker</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/op-life-counter</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Dragon Ball Super CG -->
+  <url><loc>https://async-converters.com/tcg/dbs-battle-power</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/dbs-energy-calc</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Magic: The Gathering -->
+  <url><loc>https://async-converters.com/tcg/mtg-draw-odds</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/tcg/mtg-mana-curve</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- D&D -->
+  <url><loc>https://async-converters.com/dnd/dnd-dice</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/dnd/dnd-name</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/dnd/encounter-difficulty</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/dnd/initiative-tracker</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/dnd/loot-generator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- 3D Printing -->
+  <url><loc>https://async-converters.com/printing/filament-cost</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/printing/tolerance-fit</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/printing/scale-resize</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/printing/screw-hole-size</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://async-converters.com/printing/print-time-estimator</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

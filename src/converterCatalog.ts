@@ -14,6 +14,9 @@ export const CATEGORIES: { id: Category; label: string; icon: string }[] = [
   { id: 'student',   label: 'Student & School',     icon: '🎓' },
   { id: 'random',    label: 'Random & Fun',         icon: '🎲' },
   { id: 'hobbies',   label: 'Hobbies',              icon: '🎯' },
+  { id: 'tcg',       label: 'TCG',                   icon: '🃏' },
+  { id: 'dnd',       label: 'D&D',                  icon: '🎲' },
+  { id: 'printing',  label: '3D Printing',           icon: '🖨️' },
 ];
 
 export const CONVERTERS: ConverterMeta[] = [
@@ -192,10 +195,7 @@ export const CONVERTERS: ConverterMeta[] = [
   { slug: 'minecraft-stack',     name: 'Minecraft Stack Calculator',description: 'Calculate item stacks and chest storage in Minecraft',          category: 'gaming', path: '/gaming/minecraft-stack',     keywords: ['minecraft', 'stack', 'items', 'chest', 'calculate', 'storage'] },
   { slug: 'minecraft-beacon',    name: 'Minecraft Beacon Calculator',description: 'Calculate materials needed for Minecraft beacon pyramids',     category: 'gaming', path: '/gaming/minecraft-beacon',    keywords: ['minecraft', 'beacon', 'pyramid', 'materials', 'calculate'] },
   { slug: 'minecraft-enchant',   name: 'Minecraft Enchant Order',   description: 'Find the optimal anvil order for combining Minecraft enchants', category: 'gaming', path: '/gaming/minecraft-enchant',   keywords: ['minecraft', 'enchant', 'anvil', 'order', 'xp', 'cost', 'optimize'] },
-  { slug: 'pokemon-type',        name: 'Pokémon Type Matchup',      description: 'Look up type effectiveness for Pokémon battles',                category: 'gaming', path: '/gaming/pokemon-type',        keywords: ['pokemon', 'type', 'matchup', 'effectiveness', 'weakness', 'resist'] },
-  { slug: 'pokemon-iv',          name: 'Pokémon IV Calculator',     description: 'Calculate Pokémon IVs from stats, level, and nature',           category: 'gaming', path: '/gaming/pokemon-iv',          keywords: ['pokemon', 'iv', 'individual value', 'stats', 'calculate', 'nature'] },
-  { slug: 'dnd-dice',            name: 'DnD Dice Roller',           description: 'Roll any combination of polyhedral dice for D&D',               category: 'gaming', path: '/gaming/dnd-dice',            keywords: ['dnd', 'dice', 'roll', 'd20', 'd6', 'polyhedral', 'tabletop'] },
-  { slug: 'dnd-name',            name: 'DnD Character Name Generator',description: 'Generate character names for Dungeons & Dragons races',       category: 'gaming', path: '/gaming/dnd-name',            keywords: ['dnd', 'character', 'name', 'generate', 'elf', 'dwarf', 'dungeons'] },
+
 
   // Student & School
   { slug: 'gpa-calculator',      name: 'GPA Calculator',            description: 'Calculate your GPA from course grades and credit hours',        category: 'student', path: '/student/gpa-calculator',      keywords: ['gpa', 'grade', 'point', 'average', 'college', 'calculate', 'credits'] },
@@ -215,9 +215,38 @@ export const CONVERTERS: ConverterMeta[] = [
   { slug: 'random-number',       name: 'Random Number Generator',   description: 'Generate random numbers in any range with custom options',       category: 'random', path: '/random/random-number',       keywords: ['random', 'number', 'generate', 'range', 'dice', 'lottery'] },
   { slug: 'random-group',        name: 'Random Group Splitter',     description: 'Randomly split a list of names into equal groups',               category: 'random', path: '/random/random-group',        keywords: ['random', 'group', 'split', 'team', 'names', 'divide', 'assign'] },
   { slug: 'coin-flip',           name: 'Coin Flip',                 description: 'Flip a virtual coin — heads or tails',                           category: 'random', path: '/random/coin-flip',           keywords: ['coin', 'flip', 'heads', 'tails', 'random', 'chance', 'decide'] },
-  { slug: 'dice-roller',         name: 'Dice Roller',               description: 'Roll multiple dice with custom sides and modifiers',             category: 'random', path: '/random/dice-roller',         keywords: ['dice', 'roll', 'd6', 'd20', 'random', 'board game', 'tabletop'] },
   { slug: 'raffle-picker',       name: 'Raffle Picker',             description: 'Enter entries and pick one or more random winners for a raffle', category: 'random', path: '/random/raffle-picker',       keywords: ['raffle', 'pick', 'winner', 'random', 'draw', 'contest', 'entries'] },
   { slug: 'secret-santa',        name: 'Secret Santa Generator',    description: 'Assign Secret Santa pairs from a list of names',                 category: 'random', path: '/random/secret-santa',        keywords: ['secret santa', 'gift', 'exchange', 'assign', 'random', 'christmas'] },
+
+  // TCG
+  { slug: 'pokemon-type',        name: 'Pokémon Type Chart',          description: 'Look up weaknesses, resistances, and immunities for any type combination',  category: 'tcg', path: '/tcg/pokemon-type',        keywords: ['pokemon', 'type', 'matchup', 'effectiveness', 'weakness', 'resist'] },
+  { slug: 'pokemon-iv',          name: 'Pokémon IV Estimator',        description: 'Estimate a Pokémon\'s IVs from its stat, base stat, and level',             category: 'tcg', path: '/tcg/pokemon-iv',          keywords: ['pokemon', 'iv', 'individual value', 'stats', 'calculate', 'nature'] },
+  { slug: 'team-weakness',       name: 'Team Weakness Analyzer',      description: 'Analyze shared weaknesses and coverage gaps across a full Pokémon team',    category: 'tcg', path: '/tcg/team-weakness',       keywords: ['pokemon', 'team', 'weakness', 'coverage', 'type', 'analyze'] },
+  { slug: 'shiny-odds',          name: 'Shiny Odds Calculator',       description: 'Calculate shiny encounter odds with Shiny Charm, Masuda Method, and more',  category: 'tcg', path: '/tcg/shiny-odds',          keywords: ['pokemon', 'shiny', 'odds', 'charm', 'masuda', 'probability', 'chance'] },
+  { slug: 'random-pokemon-team', name: 'Random Pokémon Team',         description: 'Generate a random Pokémon team with optional generation filter',             category: 'tcg', path: '/tcg/random-pokemon-team', keywords: ['pokemon', 'random', 'team', 'generator', 'gen', 'party'] },
+  // One Piece TCG
+  { slug: 'op-don-tracker',      name: 'One Piece DON!! Tracker',     description: 'Track DON!! availability by turn and simulate attachment costs',            category: 'tcg', path: '/tcg/op-don-tracker',      keywords: ['one piece', 'tcg', 'don', 'cost', 'tracker', 'turn', 'bandai'] },
+  { slug: 'op-life-counter',     name: 'One Piece Life Counter',      description: 'Track life cards and hand size for One Piece TCG matches',                  category: 'tcg', path: '/tcg/op-life-counter',     keywords: ['one piece', 'tcg', 'life', 'counter', 'hand', 'damage', 'tracker'] },
+  // Dragon Ball Super CG
+  { slug: 'dbs-battle-power',    name: 'DBS Battle Power Calculator', description: 'Compare attacker and defender battle power with combo card bonuses',        category: 'tcg', path: '/tcg/dbs-battle-power',    keywords: ['dragon ball', 'dbs', 'battle power', 'combo', 'tcg', 'bandai'] },
+  { slug: 'dbs-energy-calc',     name: 'DBS Energy Cost Planner',     description: 'Plan energy costs for Dragon Ball Super Card Game turns',                   category: 'tcg', path: '/tcg/dbs-energy-calc',     keywords: ['dragon ball', 'dbs', 'energy', 'cost', 'tcg', 'turn', 'charge'] },
+  // Magic: The Gathering
+  { slug: 'mtg-draw-odds',       name: 'MTG Draw Probability',        description: 'Hypergeometric probability of drawing specific cards in your opening hand', category: 'tcg', path: '/tcg/mtg-draw-odds',       keywords: ['mtg', 'magic', 'draw', 'probability', 'hypergeometric', 'odds', 'deck'] },
+  { slug: 'mtg-mana-curve',      name: 'MTG Mana Curve Analyzer',     description: 'Visualize your deck mana curve and get recommended land count',            category: 'tcg', path: '/tcg/mtg-mana-curve',      keywords: ['mtg', 'magic', 'mana', 'curve', 'land', 'cmc', 'deck', 'color'] },
+
+  // D&D
+  { slug: 'dnd-dice',            name: 'D&D Dice Roller (3D)',         description: 'Roll polyhedral dice with 3D animation, advantage/disadvantage, and modifiers', category: 'dnd', path: '/dnd/dnd-dice',            keywords: ['dnd', 'dice', 'roll', 'd20', 'd6', 'polyhedral', 'tabletop', '3d'] },
+  { slug: 'dnd-name',            name: 'Character Name Generator',     description: 'Generate fantasy character names for different D&D races',                    category: 'dnd', path: '/dnd/dnd-name',            keywords: ['dnd', 'character', 'name', 'generate', 'elf', 'dwarf', 'dungeons'] },
+  { slug: 'encounter-difficulty',name: 'Encounter Difficulty',         description: 'Calculate D&D 5e encounter difficulty rating for your party',                category: 'dnd', path: '/dnd/encounter-difficulty', keywords: ['dnd', 'encounter', 'difficulty', 'cr', 'challenge rating', 'xp', 'party'] },
+  { slug: 'initiative-tracker',  name: 'Initiative Tracker',           description: 'Track initiative order, HP, and conditions for D&D combat',                   category: 'dnd', path: '/dnd/initiative-tracker',  keywords: ['dnd', 'initiative', 'tracker', 'combat', 'hp', 'turn', 'order'] },
+  { slug: 'loot-generator',      name: 'Loot Generator',               description: 'Generate random D&D loot tables by treasure tier',                           category: 'dnd', path: '/dnd/loot-generator',      keywords: ['dnd', 'loot', 'treasure', 'random', 'generate', 'magic item', 'tier'] },
+
+  // 3D Printing
+  { slug: 'filament-cost',       name: 'Filament Cost Calculator',     description: 'Calculate filament cost from weight, spool price, and wastage',               category: 'printing', path: '/printing/filament-cost',       keywords: ['3d printing', 'filament', 'cost', 'pla', 'abs', 'price', 'spool', 'weight'] },
+  { slug: 'tolerance-fit',       name: 'Tolerance / Fit Calculator',   description: 'Get clearance recommendations for snug, loose, and press fits',               category: 'printing', path: '/printing/tolerance-fit',       keywords: ['3d printing', 'tolerance', 'fit', 'clearance', 'press fit', 'snug', 'loose'] },
+  { slug: 'scale-resize',        name: 'Scale Resize Calculator',      description: 'Convert model scaling percentage to new dimensions and vice versa',           category: 'printing', path: '/printing/scale-resize',        keywords: ['3d printing', 'scale', 'resize', 'dimensions', 'percentage', 'model', 'stl'] },
+  { slug: 'screw-hole-size',     name: 'Screw Hole Size Guide',        description: 'Find clearance hole and tap drill sizes for metric screws',                   category: 'printing', path: '/printing/screw-hole-size',     keywords: ['3d printing', 'screw', 'hole', 'metric', 'clearance', 'tap', 'm3', 'm4', 'm5'] },
+  { slug: 'print-time-estimator',name: 'Print Time Estimator',         description: 'Estimate print time and material usage from model dimensions and settings',   category: 'printing', path: '/printing/print-time-estimator',keywords: ['3d printing', 'print time', 'estimate', 'layer', 'speed', 'material', 'filament'] },
 
   // Hobbies
   { slug: 'rc-gear-ratio',          name: 'RC Gear Ratio Calculator',        description: 'Calculate final drive ratio and torque multiplier for RC cars',                     category: 'hobbies', path: '/hobbies/rc-gear-ratio',          keywords: ['rc car', 'gear ratio', 'pinion', 'spur', 'final drive', 'torque', 'radio control'] },

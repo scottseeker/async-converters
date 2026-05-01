@@ -196,10 +196,7 @@ export const router = createBrowserRouter([
       { path: 'gaming/minecraft-stack',     lazy: lazyRoute(() => import('./pages/gaming/MinecraftStack')) },
       { path: 'gaming/minecraft-beacon',    lazy: lazyRoute(() => import('./pages/gaming/MinecraftBeacon')) },
       { path: 'gaming/minecraft-enchant',   lazy: lazyRoute(() => import('./pages/gaming/MinecraftEnchant')) },
-      { path: 'gaming/pokemon-type',        lazy: lazyRoute(() => import('./pages/gaming/PokemonType')) },
-      { path: 'gaming/pokemon-iv',          lazy: lazyRoute(() => import('./pages/gaming/PokemonIv')) },
-      { path: 'gaming/dnd-dice',            lazy: lazyRoute(() => import('./pages/gaming/DndDice')) },
-      { path: 'gaming/dnd-name',            lazy: lazyRoute(() => import('./pages/gaming/DndName')) },
+
 
       // Student & School
       { path: 'student/gpa-calculator',      lazy: lazyRoute(() => import('./pages/student/GpaCalculator')) },
@@ -219,7 +216,6 @@ export const router = createBrowserRouter([
       { path: 'random/random-number',       lazy: lazyRoute(() => import('./pages/random/RandomNumber')) },
       { path: 'random/random-group',        lazy: lazyRoute(() => import('./pages/random/RandomGroup')) },
       { path: 'random/coin-flip',           lazy: lazyRoute(() => import('./pages/random/CoinFlip')) },
-      { path: 'random/dice-roller',         lazy: lazyRoute(() => import('./pages/random/DiceRoller')) },
       { path: 'random/raffle-picker',       lazy: lazyRoute(() => import('./pages/random/RafflePicker')) },
       { path: 'random/secret-santa',        lazy: lazyRoute(() => import('./pages/random/SecretSanta')) },
 
@@ -239,6 +235,36 @@ export const router = createBrowserRouter([
       { path: 'hobbies/longboard-downhill',     lazy: lazyRoute(() => import('./pages/hobbies/LongboardDownhill')) },
       { path: 'hobbies/skate-wheel-speed',      lazy: lazyRoute(() => import('./pages/hobbies/SkateWheelSpeed')) },
       { path: 'hobbies/skate-stride',           lazy: lazyRoute(() => import('./pages/hobbies/SkateStride')) },
+
+      // TCG (Pokémon)
+      { path: 'tcg/pokemon-type',           lazy: lazyRoute(() => import('./pages/tcg/PokemonType')) },
+      { path: 'tcg/pokemon-iv',             lazy: lazyRoute(() => import('./pages/tcg/PokemonIv')) },
+      { path: 'tcg/team-weakness',          lazy: lazyRoute(() => import('./pages/tcg/TeamWeakness')) },
+      { path: 'tcg/shiny-odds',             lazy: lazyRoute(() => import('./pages/tcg/ShinyOdds')) },
+      { path: 'tcg/random-pokemon-team',    lazy: lazyRoute(() => import('./pages/tcg/RandomPokemonTeam')) },
+      // One Piece TCG
+      { path: 'tcg/op-don-tracker',         lazy: lazyRoute(() => import('./pages/tcg/OpDonTracker')) },
+      { path: 'tcg/op-life-counter',        lazy: lazyRoute(() => import('./pages/tcg/OpLifeCounter')) },
+      // Dragon Ball Super CG
+      { path: 'tcg/dbs-battle-power',       lazy: lazyRoute(() => import('./pages/tcg/DbsBattlePower')) },
+      { path: 'tcg/dbs-energy-calc',        lazy: lazyRoute(() => import('./pages/tcg/DbsEnergyCalc')) },
+      // Magic: The Gathering
+      { path: 'tcg/mtg-draw-odds',          lazy: lazyRoute(() => import('./pages/tcg/MtgDrawOdds')) },
+      { path: 'tcg/mtg-mana-curve',         lazy: lazyRoute(() => import('./pages/tcg/MtgManaCurve')) },
+
+      // D&D
+      { path: 'dnd/dnd-dice',               lazy: lazyRoute(() => import('./pages/dnd/DndDice')) },
+      { path: 'dnd/dnd-name',               lazy: lazyRoute(() => import('./pages/dnd/DndName')) },
+      { path: 'dnd/encounter-difficulty',   lazy: lazyRoute(() => import('./pages/dnd/EncounterDifficulty')) },
+      { path: 'dnd/initiative-tracker',     lazy: lazyRoute(() => import('./pages/dnd/InitiativeTracker')) },
+      { path: 'dnd/loot-generator',         lazy: lazyRoute(() => import('./pages/dnd/LootGenerator')) },
+
+      // 3D Printing
+      { path: 'printing/filament-cost',         lazy: lazyRoute(() => import('./pages/printing/FilamentCost')) },
+      { path: 'printing/tolerance-fit',         lazy: lazyRoute(() => import('./pages/printing/ToleranceFit')) },
+      { path: 'printing/scale-resize',          lazy: lazyRoute(() => import('./pages/printing/ScaleResize')) },
+      { path: 'printing/screw-hole-size',       lazy: lazyRoute(() => import('./pages/printing/ScrewHoleSize')) },
+      { path: 'printing/print-time-estimator',  lazy: lazyRoute(() => import('./pages/printing/PrintTimeEstimator')) },
     ],
   },
 ]);
