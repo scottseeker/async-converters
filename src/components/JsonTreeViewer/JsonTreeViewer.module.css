@@ -1,0 +1,99 @@
+.root {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  background: var(--bg-code);
+  color: var(--text-primary);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem;
+  overflow: auto;
+  line-height: 1.6;
+  min-height: 200px;
+  max-height: 600px;
+}
+
+.node {
+  display: block;
+}
+
+.line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  min-height: 1.6em;
+}
+
+.children {
+  padding-left: 1.5em;
+  border-left: 1px solid var(--border);
+  margin-left: 0.4em;
+}
+
+.toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.6rem;
+  color: var(--text-secondary);
+  padding: 0 0.25em;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.toggle:hover {
+  color: var(--accent);
+  background: var(--accent-subtle);
+}
+
+.key {
+  color: var(--accent-text, var(--accent));
+}
+
+.colon {
+  color: var(--text-secondary);
+  margin-right: 0.2em;
+}
+
+.punct {
+  color: var(--text-secondary);
+}
+
+.string {
+  color: #16a34a;
+}
+
+:global([data-theme='dark']) .string {
+  color: #4ade80;
+}
+
+.number {
+  color: #d97706;
+}
+
+:global([data-theme='dark']) .number {
+  color: #fbbf24;
+}
+
+.bool {
+  color: #9333ea;
+}
+
+:global([data-theme='dark']) .bool {
+  color: #c084fc;
+}
+
+.null {
+  color: #dc2626;
+}
+
+:global([data-theme='dark']) .null {
+  color: #f87171;
+}
+
+.preview {
+  color: var(--text-secondary);
+  font-style: italic;
+  font-size: 0.75rem;
+}

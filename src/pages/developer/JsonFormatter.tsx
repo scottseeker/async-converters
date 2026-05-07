@@ -1,29 +1,41 @@
 import { useState } from 'react';
 import ConverterShell from '../../components/ConverterShell/ConverterShell';
+import JsonTreeViewer from '../../components/JsonTreeViewer/JsonTreeViewer';
 import styles from './developer.module.css';
+
+type JsonValue = string | number | boolean | null | JsonValue[] | { [key: string]: JsonValue };
 
 export default function JsonFormatter() {
   const [input, setInput] = useState('');
-  const [output, setOutput] = useState('');
+  const [parsed, setParsed] = useState<JsonValue | null>(null);
+  const [minified, setMinified] = useState('');
+  const [mode, setMode] = useState<'pretty' | 'minify' | null>(null);
   const [error, setError] = useState('');
-  const [indent, setIndent] = useState(2);
 
   function format() {
     setError('');
+    setMinified('');
     try {
-      const parsed = JSON.parse(input);
-      setOutput(JSON.stringify(parsed, null, indent));
+      const result = JSON.parse(input) as JsonValue;
+      setParsed(result);
+      setMode('pretty');
     } catch (e) {
+      setParsed(null);
+      setMode(null);
       setError((e as Error).message);
     }
   }
 
   function minify() {
     setError('');
+    setParsed(null);
     try {
-      const parsed = JSON.parse(input);
-      setOutput(JSON.stringify(parsed));
+      const result = JSON.parse(input) as JsonValue;
+      setMinified(JSON.stringify(result));
+      setMode('minify');
     } catch (e) {
+      setMinified('');
+      setMode(null);
       setError((e as Error).message);
     }
   }
@@ -38,18 +50,18 @@ export default function JsonFormatter() {
         <div className={styles.actions}>
           <button className="btn-primary" onClick={format}>Format (pretty)</button>
           <button className="btn-secondary" onClick={minify}>Minify</button>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginLeft: 'auto' }}>
-            <label style={{ marginBottom: 0, whiteSpace: 'nowrap' }}>Indent:</label>
-            <select value={indent} onChange={e => setIndent(Number(e.target.value))} style={{ width: 70 }}>
-              {[2, 4].map(n => <option key={n} value={n}>{n} spaces</option>)}
-            </select>
-          </div>
         </div>
         {error && <p className={styles.error}>⚠ {error}</p>}
-        {output && (
+        {mode === 'pretty' && parsed !== null && (
           <div className={styles.field}>
             <label>Output</label>
-            <textarea className={styles.codeArea} readOnly value={output} />
+            <JsonTreeViewer value={parsed} />
+          </div>
+        )}
+        {mode === 'minify' && minified && (
+          <div className={styles.field}>
+            <label>Output</label>
+            <textarea className={styles.codeArea} readOnly value={minified} />
           </div>
         )}
       </div>
